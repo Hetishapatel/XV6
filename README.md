@@ -3,7 +3,7 @@ Xv6 is UNIX like simple operating system.
 The labs touches many fundamentals of operating systems
 The branches are given below:
 
-1) [a relative link] Utilities 
+1) [Utilities](https://github.com/Hetishapatel/Xv6/tree/Utilities-and-System-Calls) 
 2) System Calls 
 3) Page tables
 4) Traps
