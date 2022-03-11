@@ -1,0 +1,9 @@
+1) 13 is stored in a2 -> 24: 4635 li a2,13
+               
+   12 is stored in a1 -> 26: 45b1 li a1,12
+
+2) compiler replaces function calls with calculated result -> 26: 45b1 li a1,12
+
+3) 0000000000000630 <printf>: ->   34: 600080e7 jalr 1536(ra) # 630 <printf>  // 1536=0x600 ra=0x30 by auipc updates ra= pc + 32bit number; 32 bit [31:12-> imm 11:0-> 0] 
+
+4) jalr insturction updates ra with pc+4. So, ra=0x38
