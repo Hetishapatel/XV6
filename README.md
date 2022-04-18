@@ -12,4 +12,3 @@ The branches are given below:
 7) [Network driver](https://github.com/Hetishapatel/Xv6/tree/Network-driver)
 8) Lock
 9) File system
-10) mmap
